@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c0668d1e-97c1-41cf-81fd-7cb328277785)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 162.56 38.1) (size 26.67 40.64) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 16 0 255 1))
+    (fill (color 0 0 0 0.0000))
+    (uuid 18fd7f33-9f2d-4208-837a-fc34ea8f0245)
+    (property "Sheetname" "Main Controller" (at 162.56 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "02 Main Controller.kicad_sch" (at 162.56 79.3246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SEpocket"
+        (path "/c0668d1e-97c1-41cf-81fd-7cb328277785" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 97.79 95.25) (size 27.94 44.45) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 124 21 1))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2836f43c-a06b-447e-af16-6eeb849e7e7f)
+    (property "Sheetname" "Audio" (at 97.79 94.5384 0) (show_name)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "03 Audio.kicad_sch" (at 97.79 140.2846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SEpocket"
+        (path "/c0668d1e-97c1-41cf-81fd-7cb328277785" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 162.56 95.25) (size 26.67 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 226 213 1))
+    (fill (color 0 0 0 0.0000))
+    (uuid d1ec707e-871e-4186-b68f-78b19cce2444)
+    (property "Sheetname" "Digital Interface" (at 162.56 94.5384 0) (show_name)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "04 Digital Interface_sch.kicad_sch" (at 162.56 139.0146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SEpocket"
+        (path "/c0668d1e-97c1-41cf-81fd-7cb328277785" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 97.79 38.1) (size 27.94 40.64) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 180 4 0 1))
+    (fill (color 168 0 5 0.0000))
+    (uuid f502da4c-6d6d-4229-9510-6dc6b0248548)
+    (property "Sheetname" "Power System" (at 97.79 37.3884 0) (show_name)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "01 Power System.kicad_sch" (at 97.79 79.3246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SEpocket"
+        (path "/c0668d1e-97c1-41cf-81fd-7cb328277785" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

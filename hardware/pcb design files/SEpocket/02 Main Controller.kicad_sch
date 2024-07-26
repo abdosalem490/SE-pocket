@@ -1,0 +1,21 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6eaf6362-2aaa-4efc-9fa7-2dcdae88bb05)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (rectangle (start 12.954 12.954) (end 129.794 91.186)
+    (stroke (width 0) (type dash_dot))
+    (fill (type none))
+    (uuid ea6d6593-d807-43cf-adc4-e88074ea4735)
+  )
+
+  (text "MAIN MCU (STM32F103C8T6)" (at 13.462 18.034 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid 5fcb9a82-7685-4366-8571-cb788549a65c)
+  )
+)
